@@ -11,7 +11,7 @@ function App(){
         
         <>
         
-        <BrowserRouter basename="/bootcamp">
+        <BrowserRouter basename="/bootcamp/">
         
             <Routes>
 
