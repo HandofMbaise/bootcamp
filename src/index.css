@@ -90,12 +90,12 @@ body{
 
 /* Register jsx style */
 
-#logo{
+.logo{
     text-align: center;
     color: red;
 }
 
-#register-div{
+.input-div{
     position: relative;
     top: 200px;
     left: 400px;
@@ -108,7 +108,7 @@ body{
     padding: 5px;
 }
 
-#submit-button{
+.submit-button{
   margin-top: 10px;
   padding: 5px 5px;
   background-color: rgb(36, 174, 36);
@@ -120,3 +120,63 @@ body{
     text-align: center;
     color: lime;
 }
+
+.icon{
+    position: absolute;
+    top: 30em;
+    left: 72em
+}
+
+.hfm-icon{
+   font-size: 40px;
+}
+
+.hfm{
+    color: lime;
+}
+
+.Tech{
+    color: red;
+    position: relative;
+    right: 15px;
+}
+
+@media screen and (max-width: 768px){
+
+.input-div{
+
+/* top: auto; */
+    left: 3em;
+    
+    width: 90%;
+ /* bottom: 20em; */
+
+ }
+
+.logo{
+    left: 3em;
+ }
+
+.form{
+    margin: auto;
+    margin-left: 22px;
+ }
+
+.input{
+    margin-bottom: auto;
+    height: 30px;
+ }
+
+ .submit-button{
+    top: 1em;
+    bottom:2px;
+    right: auto;
+    left: 1em;
+
+ }
+
+ .icon{
+    left: 25em;
+ }
+
+};

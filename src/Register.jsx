@@ -38,7 +38,7 @@ function RegisterForm(){
 
         <div>
 
-         <h1 id="logo">Register Page</h1>
+         <h1 class="logo">Register Page</h1>
 
          <nav className="nav-bar">
             <ul>
@@ -55,9 +55,9 @@ function RegisterForm(){
 
 
 
-    <div id="register-div">
+    <div class="input-div">
 
-   <form onSubmit={registerForm} id="register-Form">
+   <form onSubmit={registerForm} className="Form">
    <label>
     Username:
     <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input"/>
@@ -71,11 +71,22 @@ function RegisterForm(){
 
     <br/>
 
-    <button type="submit" id="submit-button">Register</button>
+    <button type="submit" class="submit-button">Register</button>
 
    </form>
 
     </div>
+
+    
+
+<div class="icon">
+
+ <h1 class="hfm-icon">🖖</h1>
+ <p class="hfm">H.F.M</p>
+ <p class="Tech">Technology.</p>
+
+</div>
+
 
     </>
     )

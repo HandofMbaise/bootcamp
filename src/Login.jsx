@@ -45,7 +45,7 @@ function LoginForm(){
   return(
     <>
     <div>
-        <h1 id="logo">Login Page</h1>
+        <h1 class="logo">Login Page</h1>
 
         <nav className="nav-bar">
         <ul>
@@ -59,9 +59,9 @@ function LoginForm(){
         
     </div>
 
-    <div id="register-div">
+    <div class="input-div">
 
-<form onSubmit={loginForm} id="register-Form">
+<form onSubmit={loginForm} className="Form">
 <label>
  Username:
  <input type="text" value={username} {...newusername} onChange={(e) => setUsername(e.target.value)} 
@@ -77,11 +77,19 @@ function LoginForm(){
 
  <br/>
 
- <button type="submit" id="submit-button">Login</button>
+ <button type="submit" class="submit-button">Login</button>
 
 </form>
 
  </div>
+
+ <div class="icon">
+
+ <h1 class="hfm-icon">🖖</h1>
+ <p class="hfm">H.F.M</p>
+ <p class="Tech">Technology.</p>
+
+</div>
     
     
     </>
