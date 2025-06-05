@@ -69,11 +69,11 @@ function Pharm(){
     setTimeout(() => {
     window.alert('Session timeout you will be redirected soon');
     localStorage.removeItem('user')
-    }, 20000);
+    }, 60000);
 
       setTimeout(() => {
     localStorage.removeItem('token');
-  }, 30000)
+  }, 80000)
   }
 
   Timeout();
