@@ -60,7 +60,7 @@ function Pharm(){
 
   function logOut(){
     window.alert('Logged out success');
-    window.location.href = 'login'
+    window.location.href = '#/login'
 
   }
 
