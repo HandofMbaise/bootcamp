@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#head{
+    padding: 10px 0px;
+    display: grid;
+}
+
+#head h1{
+    text-align: center;
+}
+
+#user-div{
+    position: absolute;
+    left: 70em;
+    bottom: 34em;
+    color: lime;
+}
+
+.nav-bar{
+    place-items: center;
+    background-color: green;
+}
+
+
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+
+.nav-bar a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+
+.nav-bar a:hover{
+    background-color: pink;
+}
+
+
+#body-section{
+    margin-top: 10px;
+}
+
+.body-div{
+    padding: 10px 10px 5px 0;
+}
+
+.images{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.button{
+    margin: 20px auto 0;
+    background-color: green;
+    color: #fff;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    
+}
+
+.button:hover{
+    transition: 0.1s ease-in;
+    background-color: purple;
+}
+
+.button:active{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+/* Register jsx style */
+
+#logo{
+    text-align: center;
+    color: red;
+}
+
+#register-div{
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
+
+.input{
+    width: 25rem;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#submit-button{
+  margin-top: 10px;
+  padding: 5px 5px;
+  background-color: rgb(36, 174, 36);
+  border: none;
+  border-radius: 10px;
+}
+
+#sample-text{
+    text-align: center;
+    color: lime;
+}
