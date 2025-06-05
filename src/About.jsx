@@ -14,7 +14,7 @@ function About(){
 
         <div>
 
-<h1 id="logo">Welcome To About Page</h1>
+<h1 class="logo">Welcome To About Page</h1>
 
 <nav className="nav-bar">
     <ul>
