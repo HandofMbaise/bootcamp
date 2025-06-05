@@ -40,7 +40,7 @@ function Pharm(){
  
   if(localStorage.getItem('token') === null){
   window.alert('Unauthorized user!! register and login again');
-  window.location.href = '/'
+  window.location.href = '/bootcamp/'
 
 } else{
    function checkId(){
@@ -60,7 +60,7 @@ function Pharm(){
 
   function logOut(){
     window.alert('Logged out success');
-    window.location.href = '#/login'
+    window.location.href = '/bootcamp/'
 
   }
 
