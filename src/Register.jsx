@@ -21,7 +21,7 @@ function RegisterForm(){
             window.alert('username must be a string');
 
           } else{
-            window.location.href = '/login'
+            window.location.href = '#/login'
             window.alert(` User ${username} created`)
           }
         } catch(error){

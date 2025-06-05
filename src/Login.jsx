@@ -28,7 +28,7 @@ function LoginForm(){
         window.alert('username must be a string');
         
       } else{
-        window.location.href = '/home'
+        window.location.href = '#/home'
         window.alert(`Welcome ${username}`);
         
       }
